@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="csspadrao.css">
+    <title>HTML</title>
+</head>
+<body>
+    <div class="container-fluid">
+
+        <div class="row fundo_lin1 fixed-top">
+            <div class="col-xl-1 ">
+                <a href="../index.html" class="link_voltar">
+                    <img src="../imagens/seta_esquerda.png" alt="voltar" width="50">
+                </a>
+            </div>
+            <div class="col-xl-3 ">
+                <h1 id="home">APRENDA HTML</h1>
+            </div>
+            <div class="col-xl-8 bordas_menu">
+                <div class="row">
+
+                    <div class="barra_menu">
+
+                        <a class="link_menu" href="#intro">
+                            Introdução
+                        </a> 
+
+                        <a class="link_menu" href="#sinta">
+                            Sintaxe
+                        </a>
+
+                        <a class="link_menu" href="#imag">
+                            Imagens
+                        </a>
+                        
+                        <a class="link_menu" href="">
+                            Links
+                        </a>
+
+                        <a class="link_menu" href="">
+                            Tabelas
+                        </a>
+
+                        <a class="link_menu" href="">
+                            Listas
+                        </a>
+
+                        <a class="link_menu" href="">
+                            Formulários
+                        </a>
+
+                        <a class="link_menu" href="#video">
+                            Vídeos
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div></div>
+        <h2 class="p" id="intro">Introdução</h2>
+
+        <p class="explicacao">
+            Básicamente o HTML (Linguagem de Marcação de Hipertexto) que atualmente está na 5° verçãoé um tipo de HyperTexto usado para a criação de páginas web que pode ser intepretada pelos navegadores. Com ele é possivel inserir geralmente através de tags textos, imagens e vídeos atravês dos HyperTextos.
+        </p>
+
+        <h2 id="sinta">Sintaxe</h2>
+
+        <p class="explicacao">
+            A sintaxe básica do HTML é bem simples. em qualquer arquivo html inicialmente escrevemos o texto 
+        </p>
+        <p>
+            <code>
+                <textarea class="codigo" cols="30" readonly rows="11">
+
+&lt;!Doctype&lt;/&gt;
+&lt;html lang="pt-BR"&gt;
+    &lt;head&gt;
+        &lt;title&gt; HTML &lt;/title&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        &lt;p&gt;Hello world&lt;/p&gt;
+    &lt;/body&gt;
+&lt;/html&gt;   
+                </textarea>
+            </code>
+        </p>
+        <p class="explicacao">
+            Com essé codigo base, podemos desenvolve nosso site, independente do quão complexo seja, certamente ele parte do mesmo princípio.
+            Apartir dessa sintaxe básica, é possivel sair de um simples hello world para um site completamente modificado e diferente de qualquer outro já feito.
+            Dentro da tag  
+            <code class="codtext">
+                &lt;body&gt;&lt;/body&gt;
+            </code>
+            , você vai colocar oque você deseja que apareça na tela do navegador como parágrafos, imagens, links entre outros, enquanto no cabeçalho, são inseridas as configurações dá página como o título por exemplo.
+        </p>
+        <h2 id="imag">
+            Imagens
+        </h2>
+        <p class="explicacao">
+            Para adicionarmos uma imagem à página, basta utilizar a tag 
+            <code class="codtext">
+                &lt;img&gt;
+             </code>, dentro dela será inserido os atributos 
+             <code class="codtext">src=""</code> que indica onde e qual é o arquivo, o <code class="codtext">alt=""</code> que serve como uma "identificação" entre outro como o
+             <code class="codtext">width=""</code> e o <code class="codtext">height=""</code> que servem para definir largura e altura respectivamente.
+             <h3>Como colocar imagens no html:</h3>
+             <code>
+                    <textarea readonly class="codigo" cols="101" rows="12">
+
+&lt;!Doctype&lt;/&gt;
+&lt;html lang="pt-BR"&gt;
+    &lt;head&gt;
+        &lt;title&gt; HTML &lt;/title&gt;
+     &lt;/head&gt;
+    &lt;body&gt;
+        &lt;p&gt;Hello world&lt;/p&gt;
+        &lt;img src="localização da imagem" alt="identificação ou descrição" width="largura" height="altura"&gt;
+    &lt;/body&gt;
+&lt;/html&gt;  
+                    </textarea>
+                </code>
+        </p>
+
+
+
+
+
+
+
+        <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/nPEpaft1y1k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+</body>
+</html>
