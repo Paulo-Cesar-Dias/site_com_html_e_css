@@ -78,7 +78,10 @@ h2{
 
 }
 h3{
-    color: rgb(149, 152, 163);
+    color: rgb(132, 137, 158);
+}
+h4{
+    color: rgb(199, 202, 214);
 }
 .codtext{
     transition: all 0.5s;
@@ -94,10 +97,10 @@ h3{
     background-color:white;
     color:black;
     text-align: center;
-    transition: all 0.7s;
+    transition: all 0.5s;
 }
 .tabela:hover{
-    font-size:23px
+    font-size:22px
 }
 table.tabela td{
     border: 1px solid black;
@@ -106,4 +109,7 @@ table.tabela td{
 
 tr:nth-child(even) {
     background:rgb(214, 214, 214);
-  }
+}
+.exem{
+    margin-top: 10px;
+}
