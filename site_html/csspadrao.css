@@ -6,6 +6,7 @@ body{
     background-color: rgb(44, 44, 50);
     cursor: default;
 }
+
 h1{
     color:rgb(0, 137, 210);
     font-family: Arial;
@@ -81,6 +82,7 @@ h3{
 }
 .codtext:hover{
     font-size: 25px;
+    cursor: zoom-in;
 }
 .p{
     margin-top: 4%;
