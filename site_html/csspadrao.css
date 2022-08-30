@@ -90,3 +90,11 @@ h3{
 .p{
     margin-top: 4%;
 }
+.tabela{
+    background-color:white;
+    color:black;
+    border: 1px;
+}
+tr:nth-child(even) {
+    background:rgb(214, 214, 214);
+  }
