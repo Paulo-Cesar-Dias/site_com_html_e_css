@@ -1,6 +1,5 @@
 html{
     scroll-behavior: smooth;
-    transition: all 2s;
 }
 body{
     background-color: rgb(44, 44, 50);
@@ -16,8 +15,9 @@ h1{
 }
 
 img{
-    transition: all 0.4s;
+    transition: all 0.7s;
     cursor: pointer;
+ 
 }
 img:hover{
 
@@ -84,7 +84,7 @@ h3{
     transition: all 0.5s;
 }
 .codtext:hover{
-    font-size: 25px;
+    font-size: 23px;
     cursor: zoom-in;
 }
 .p{
@@ -93,8 +93,17 @@ h3{
 .tabela{
     background-color:white;
     color:black;
-    border: 1px;
+    text-align: center;
+    transition: all 0.7s;
 }
+.tabela:hover{
+    font-size:23px
+}
+table.tabela td{
+    border: 1px solid black;
+
+}
+
 tr:nth-child(even) {
     background:rgb(214, 214, 214);
   }
