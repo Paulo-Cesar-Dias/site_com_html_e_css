@@ -51,7 +51,7 @@ img:hover{
 }
 
 h2{
-    margin-top: 40px;
+    padding-top: 45px;
     color: blueviolet;
     font-size: 40px;
 }
@@ -91,7 +91,7 @@ h4{
     cursor: zoom-in;
 }
 .p{
-    margin-top: 4%;
+
 }
 .tabela{
     background-color:white;
