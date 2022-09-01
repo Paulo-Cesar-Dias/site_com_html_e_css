@@ -59,6 +59,7 @@ h2{
     color: white;
     text-align: justify;
     width: 60%;
+    font-size: 17px;
 
 }
 .bordas_menu{
@@ -83,16 +84,8 @@ h3{
 h4{
     color: rgb(199, 202, 214);
 }
-.codtext{
-    transition: all 0.5s;
-}
-.codtext:hover{
-    font-size: 23px;
-    cursor: zoom-in;
-}
-.p{
 
-}
+
 .tabela{
     background-color:white;
     color:black;
