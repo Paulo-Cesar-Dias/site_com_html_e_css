@@ -192,8 +192,44 @@
             <div class="ancora" width="100%" id="quarto"></div>
             <div class="conteudo">
                 <!--Aqui dentro fica o conteúdo-->
-                <h2 class="cabecalho_secun" >Oque é Clash Royale</h2>
-                <p>Texto q c vai colocar</p>
+                <h2 class="cabecalho_secun" >Formulário</h2>
+                <form class="formulario">
+                    <div class="pontospessoais">
+                        <div class="afastamento">
+                            <label for="nome">Nome: </label>
+                            <input type="text" name="nomepessoal" id="nome">
+                        </div>
+                        <div>
+                            <label for="data">Data de Nascimento:</label>
+                            <input type="date" name="datanascimento" id="data">
+                        </div>
+                    </div>
+                    <div class="pontosdosite">
+                        <div class="afastamento01">
+                            <p> <label for="designer">Oque você mais gostou do site? :</label>
+
+                                <input type="checkbox" name="eugostum[]" value="designer">Designer
+                                <input type="checkbox" name="eugostum[]" value="conteudo">Conteúdo
+                                <input type="checkbox" name="eugostum[]" value="imagens">Imagens
+                                <input type="checkbox" value="imagenss" name="eugostum[]">ultimo
+                            </p>
+                        </div>
+                        <div>
+                            <p>Ira se divertir conosco no Clash também?</p>
+                            <input type="radio" name="vamos" value="sim" id="sim">
+                            <label for="sim">Sim!</label><br>
+                            <input type="radio" name="vamos" value="nao" id="nao">
+                            <label for="nao">Não :(</label>
+                        </div><br>
+                    </div>
+                    <div class="afastamento02">
+                        <label for="comente">Dê suas opiniões sobre o site e comente sobre algo que goste:</label><br>
+                        <textarea name="comente" id="comente" cols="30%" rows="3%"></textarea>
+                    </div><br>
+                    <div class="enviar">
+                        <input type="submit" id="Enviar">
+                    </div>
+                </form>
 
             </div>
         </li>
