@@ -1,7 +1,7 @@
 body{
 
     background-image: linear-gradient(to left, rgb(255, 166, 0), rgb(255, 166, 0),rgb(88, 50, 0) );
-
+    overflow-x: hidden;
 }
 .fixado{
     background-image: linear-gradient(to left, rgb(255, 166, 0), rgb(255, 166, 0),rgb(88, 50, 0) );
