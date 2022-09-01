@@ -50,6 +50,7 @@
     text-align: center;
     color: white;
     background-color: black;
+    
 }
 .zoom{
 	overflow: hidden;
@@ -65,7 +66,7 @@ zoom img{
 	transform: scale(1.1);
 }
 .body{
-    overflow-x:hidden;
+
     background-image: linear-gradient(to left, rgb(8, 100, 185), rgb(165, 165, 2) );
 }
 .cabecalho_prim{
@@ -73,7 +74,6 @@ zoom img{
     background-color: black;
     text-align: center;
     color: white;
-
 }
 .menu{
     /*background-color: rgb(8, 100, 185);*/
@@ -104,10 +104,9 @@ zoom img{
 }
 .principal{
     /*background-color:orangered;*/
-
-    width: 202.4%;
+    width: 302.4%;
     display: flex;
-    margin-left: -2.4%;
+    margin-left: -2%;
     list-style: none;
 }
 
@@ -122,10 +121,14 @@ html{
 }
 .links{
     text-decoration: none;
-    color: white;
+    color: orange;
+
+    max-width: 100%;
+	transition: all 0.3s;
 }
 .links:hover{
     color: white;
+    font-size: 25px;
 }
 .cabecalho_secun{
     border-radius: 5px;
@@ -135,16 +138,137 @@ html{
     color: white;
 
 }
-
 .colunas{
     width: 50%;
-
-
-
 }
 .ancora{
     margin-bottom: 6%;
 }
 .conteudo{
-    margin-left: 22.3%;
+    margin-left: 22%;
+}
+
+.alinhamento{
+    text-align: justify;
+    font-size: 22px;
+    color: white;
+    width: 80%;
+}
+.imagensmostrais{
+    text-align: center;
+    width: 77.5%;
+    border-radius: 5px;
+    border-style: solid;
+    display: flex;
+    margin-left: 22%;
+    color: rgba(255, 255, 255, 0.945);
+    background-color: rgba(255, 255, 255, 0.158);
+}
+.zeca{
+    text-align: center;
+    width: 33.3%;
+}
+
+.margin{
+    padding-top: 10px;
+}
+.top{
+    padding-top: 70px;
+    padding-right: 50px;
+}
+.perdon{
+    margin-left: -30px;
+    padding-top: 10px;
+}
+.afastar{
+    margin-right: 35px;
+}
+.nivel_cartas{
+    border-radius: 5px;
+    border-style: solid;
+    width: 49%;
+    color: rgba(255, 255, 255, 0.945);
+    background-color: rgba(255, 255, 255, 0.158);
+}
+.cartas_alinhar{
+    display: flex;
+    text-align: center;
+}
+.cartas_alinhar_2{
+    display: flex;
+    text-align: center;
+    padding-left: 11%;
+}
+.margin_cartas{
+    margin-top: -10px;
+}
+.alinhada_master{
+    display: flex;
+    margin-top: 2%;
+}
+.espaçamentos{
+    margin-top: 10%;
+}
+.alinhadinha{
+    margin-right: 20px;
+    margin-left: 10px;
+    text-align: justify;
+    font-size: 22px;
+    color: white;
+}
+.arena{
+    border-radius: 5px;
+    border-color: white;
+    background-color: rgba(255, 255, 255, 0.158);
+    border-style: solid;
+    padding-top: 2%;
+    display: flex;
+    padding-right: 2%;
+    margin-bottom: 2%;
+}
+.jogo_1{
+    text-align: center;
+    padding-left: -5%;
+}
+.jogo_2{
+    text-align: center;
+    margin-top: 5%;
+}
+.total_ligas_arenas{
+    border-radius: 5px;
+    border-style: solid;
+    border-color: white;
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.158);
+}
+.arena_1{
+    text-align: center;
+    margin-top: 2%;
+    margin-left: -15%;
+    color: white;
+}
+.ligas{
+    text-align: center;
+    margin-top: 2%;
+    margin-right: -7%;
+    color: white;
+}
+.sumbary{
+    border-radius: 5px;
+    border-style: solid;
+    border-color: white;
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.158);
+    text-align: center;
+    padding-top: 2%;
+}
+.sumbary_01{
+    border-radius: 5px;
+    border-style: solid;
+    border-color: white;
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.158);
+    text-align: center;
+    padding-top: 2%;
+    padding-left: 25%;
 }

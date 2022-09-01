@@ -9,7 +9,7 @@
 <body>
     <div class="container-fluid">
 
-        <div class="row fundo_lin1">
+        <div class="row fundo_lin1 fixed-top">
             <div class="col-xl-1 ">
                 <a href="../index.html" class="link_voltar">
                     <img src="../imagens/seta_esquerda.png" alt="voltar" width="50">
@@ -47,18 +47,18 @@
                             Listas
                         </a>
 
-                        <a class="link_menu" href="">
-                            Formulários
-                        </a>
-
                         <a class="link_menu" href="#video">
                             Vídeo
                         </a>
+                        <a class="link_menu" href="#form">
+                            Formulário
+                        </a>
+
                     </div>
                 </div>
             </div>
         </div>
-        <div></div>
+
         <h2 class="p" id="intro">Introdução</h2>
 
         <p class="explicacao">
@@ -74,7 +74,7 @@
             <code>
                 <textarea class="codigo" cols="30" readonly rows="11">
 
-&lt;!Doctype&lt;/&gt;
+&lt;!Doctype html&gt;
 &lt;html lang="pt-BR"&gt;
     &lt;head&gt;
         &lt;title&gt; HTML &lt;/title&gt;
@@ -98,19 +98,18 @@
         <p class="explicacao">
             Para adicionarmos uma imagem à página, basta utilizar a tag 
             <code class="codtext">
-                &lt;img&gt;
-             </code>, dentro dela será inserido os atributos 
-             <code class="codtext">src=""</code> que indica onde e qual é o arquivo, o <code class="codtext">alt=""</code> que serve como uma "identificação" entre outro como o
+                &lt;img&gt;</code>, dentro dela será inserido os atributos 
+             <code class="codtext">src=""</code> que indica onde e qual é o arquivo, o <br><code class="codtext">alt=""</code> que serve como uma "identificação" entre outro como o
              <code class="codtext">width=""</code> e o <code class="codtext">height=""</code> que servem para definir largura e altura respectivamente.
              <h3>Como colocar imagens no html:</h3>
              <code>
                     <textarea readonly class="codigo" cols="101" rows="12">
 
-&lt;!Doctype&lt;/&gt;
+&lt;!Doctype html&gt;
 &lt;html lang="pt-BR"&gt;
     &lt;head&gt;
         &lt;title&gt; HTML &lt;/title&gt;
-     &lt;/head&gt;
+    &lt;/head&gt;
     &lt;body&gt;
         &lt;p&gt;Hello world&lt;/p&gt;
         &lt;img src="localização da imagem" alt="identificação ou descrição" width="50px" height="50px"&gt;
@@ -133,16 +132,16 @@
         <code>
             <textarea readonly class="codigo" cols="101" rows="13">
 
-&lt;!Doctype&lt;/&gt;
+&lt;!Doctype html&gt;
 &lt;html lang="pt-BR"&gt;
-&lt;head&gt;
-&lt;title&gt; HTML &lt;/title&gt;
-&lt;/head&gt;
-&lt;body&gt;
-&lt;p&gt;Hello world&lt;/p&gt;
-&lt;img src="localização da imagem" alt="identificação ou descrição" width="50px" height="50px"&gt;
-&lt;a href="https://www.youtube.com/channel/UCI3MImmqPg7gK57xHSRoU_Q"&gt;Canal do prof&lt;/a&gt;
-&lt;/body&gt;
+    &lt;head&gt;
+        &lt;title&gt; HTML &lt;/title&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        &lt;p&gt;Hello world&lt;/p&gt;
+        &lt;img src="localização da imagem" alt="identificação ou descrição" width="50px" height="50px"&gt;
+        &lt;a href="https://www.youtube.com/channel/UCI3MImmqPg7gK57xHSRoU_Q"&gt;Canal do prof&lt;/a&gt;
+    &lt;/body&gt;
 &lt;/html&gt;  
             </textarea>
         </code>
@@ -237,15 +236,55 @@
         <h4>Exemplo</h4>
         <p class="explicacao">
             <img src="../imagens/lista_de_definicao.png" alt="Lista de definição"> Resultado: <img src="../imagens/result_lista_de_definicao.png" alt="Resultado da lista de definição">
-
+            
         </p>
-
-
-
-
+        
+        
         <hr size="5" width="100%" color="black" noshade>
         <iframe id="video" width="1000" height="560" src="https://www.youtube.com/embed/nPEpaft1y1k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        
+        <hr size="5" width="100%" color="black" noshade>
+        
+        <h2 id="form">Formulário</h2>
+        <form>
+            <p class="explicacao">
+                <label for="nome">Nome:</label>
+                <input type="text" name="nome" id="nome">
+                <label for="idade">Idade:</label>
+                <input type="date" name="idade" id="idade">
+            </p>
+            <p class="explicacao">
+                <label for="nivelbondade">Nível do design do site:</label><br>
+                <input type="radio" name="bondade" value="otimo" id="nivelbondade"> Ótimo <br>
+                <input type="radio" name="bondade" value="bom" id="nivelbondade"> Bom<br>
+                <input type="radio" name="bondade" value="medio" id="nivelbondade"> Médio <br>
+                <input type="radio" name="bondade" value="ruim" id="nivelbondade"> Ruim <br>
+                <input type="radio" name="bondade" value="horrivel" id="nivelbondade"> horrível <br>
+
+            </p>
+            <p class="explicacao">
+                <label for="aprendizado">Você aprendeu algo?</label><br>
+                <input type="radio" name="aprendizado" value="sim" id="aprendizado"> Sim <br>
+                <input type="radio" name="aprendizado" value="nao" id="aprendizado"> Não <br>
+
+            </p>
+            <p class="explicacao">
+                <label for="aprendido">Coisas aprendidas:</label><br>
+                <input type="checkbox" name="aprendido" id="aprendido" value="sintaxe"> Sintaxe<br>
+                <input type="checkbox" name="aprendido" id="aprendido" value="imagens"> Imagens<br>
+                <input type="checkbox" name="aprendido" id="aprendido" value="links"> Links <br>
+                <input type="checkbox" name="aprendido" id="aprendido" value="tabelas"> Tabelas <br>
+                <input type="checkbox" name="aprendido" id="aprendido" value="listas"> Listas <br>
+
+            </p>
+            <p class="explicacao">
+                <input type="submit" value="Enviar">
+            </p>
+
+        </form>
+    
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+
 </body>
 </html>
