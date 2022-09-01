@@ -104,9 +104,9 @@ zoom img{
 }
 .principal{
     /*background-color:orangered;*/
-    width: 302.4%;
+    width: 402.4%;
     display: flex;
-    margin-left: -2%;
+    margin-left: -2.4%;
     list-style: none;
 }
 
