@@ -8,9 +8,15 @@
     <title>HTML e Games</title>
 </head>
 <body class="body">
-
-    <div class="cabecalho_prim fixed-top">
-        <h1>Clash Royale</h1>
+    <div class="parag">
+        <div class="cabecalho_prim fixed-top">
+            <h1>Clash Royale</h1>
+        </div>
+        <div class="fixed-top div">
+            <p class="esq">
+                <a class="menu_links" href="../index.html">&lt;--</a>
+            </p>
+        </div>
     </div>
 
 
@@ -97,46 +103,45 @@
                             </div>
                         </div>
 
-                        <div class="conteudo">
-                            <div class="alinhada_master">
-                                <div class="nivel_cartas">
-                                    <div class="cartas_alinhar">
-                                        <div>
-                                            <p><img class="margin_cartas" src="../imagens/carta_comum.png" alt="carta comum"></p>
-                                            <p class="margin_cartas">Comum</p>
-                                        </div>
-                                        <div>
-                                            <p><img src="../imagens/carta_rara.png" alt="carta rara"></p>
-                                            <p>Rara</p>
-                                        </div>
-                                        <div>
-                                            <p><img src="../imagens/carta_epica.webp" alt="carta épica"></p>
-                                            <p>Épica</p>
-                                        </div>
+                        <div class="alinhada_master">
+                            <div class="nivel_cartas">
+                                <div class="cartas_alinhar">
+                                    <div>
+                                        <p><img width="90%" class="margin_cartas" src="../imagens/carta_comum.png" alt="carta comum"></p>
+                                        <p class="margin_cartas">Comum</p>
                                     </div>
-                                    <div class="cartas_alinhar_2">
-                                        <div>
-                                            <p><img src="../imagens/carta_lendaria_2.webp" alt="carta lendária"></p>
-                                            <p>Lendária</p>
-                                        </div>
-                                        <div>
-                                            <p><img src="../imagens/carta_campeã.webp" alt="carta campeã"></p>
-                                            <p>Campeã</p>
-                                        </div>
+                                    <div>
+                                        <p><img width="90%" src="../imagens/carta_rara.png" alt="carta rara"></p>
+                                        <p>Rara</p>
+                                    </div>
+                                    <div>
+                                        <p><img width="90%" src="../imagens/carta_epica.webp" alt="carta épica"></p>
+                                        <p>Épica</p>
                                     </div>
                                 </div>
-
-                                <div class="alinhadinha">
-                                    <p>É importante ressaltar que as cartas tem rarirades, ou seja, a medida que você vai avançando no jogo são encontradas. Algumas são mais raras que outras
-                                        e isso acaba dificultando encontrar algumas cartas. Atualmente temos 5 raridades no game, onde há as cartas comuns, cartas raras, cartas épicas, cartas lendárias
-                                        e os campeões.
-                                    </p><br>
-
-                                    <p>Podemos perceber como cada imagem possui um valor de custo e dessa forma, as cartas são jogadas na arena e ao decorrer da partida.</p>
+                                <div class="cartas_alinhar_2">
+                                    <div>
+                                        <p><img src="../imagens/carta_lendaria_2.webp" alt="carta lendária"></p>
+                                        <p>Lendária</p>
+                                    </div>
+                                    <div>
+                                        <p><img src="../imagens/carta_campeã.webp" alt="carta campeã"></p>
+                                        <p>Campeã</p>
+                                    </div>
                                 </div>
                             </div>
-                            <div>
-                                <ul class="alinhamento">
+
+                            <div class="alinhadinha">
+                                <p>É importante ressaltar que as cartas tem rarirades, ou seja, a medida que você vai avançando no jogo são encontradas. Algumas são mais raras que outras
+                                        e isso acaba dificultando encontrar algumas cartas. Atualmente temos 5 raridades no game, onde há as cartas comuns, cartas raras, cartas épicas, cartas lendárias
+                                        e os campeões.
+                                </p><br>
+
+                                <p>Podemos perceber como cada imagem possui um valor de custo e dessa forma, as cartas são jogadas na arena e ao decorrer da partida.</p>
+                            </div>
+                        </div>
+                            <div class="alinhamento">
+                                <ul>
                                     <li>
                                         <p>Modos de jogo</p>
                                         <ul>
@@ -183,7 +188,7 @@
                                     </li>
                                 </ul>
                             </div>
-                        </div>
+                    
                     </li>
                 </ul> 
             </div>
@@ -192,8 +197,44 @@
             <div class="ancora" width="100%" id="quarto"></div>
             <div class="conteudo">
                 <!--Aqui dentro fica o conteúdo-->
-                <h2 class="cabecalho_secun" >Oque é Clash Royale</h2>
-                <p>Texto q c vai colocar</p>
+                <h2 class="cabecalho_secun" >Formulário</h2>
+                <form class="formulario">
+                    <div class="pontospessoais">
+                        <div class="afastamento">
+                            <label for="nome">Nome: </label>
+                            <input type="text" name="nomepessoal" id="nome"><br>
+                        </div>
+                        <div>
+                            <label for="data">Data de Nascimento:</label>
+                            <input type="date" name="datanascimento" id="data"> <br><br>
+                        </div>
+                    </div>
+                    <div class="pontosdosite">
+                        <div class="afastamento01">
+                            <p> <label for="designer">Oque você mais gostou do site? :</label><br>
+
+                                <input type="checkbox" name="eugostum[]" value="designer">Designer<br>
+                                <input type="checkbox" name="eugostum[]" value="conteudo">Conteúdo<br>
+                                <input type="checkbox" name="eugostum[]" value="imagens">Imagens<br>
+                                <input type="checkbox" value="imagenss" name="eugostum[]">ultimo<br>
+                            </p>
+                        </div>
+                        <div>
+                            <p>Ira se divertir conosco no Clash também?</p>
+                            <input type="radio" name="vamos" value="sim" id="sim">
+                            <label for="sim">Sim!</label><br>
+                            <input type="radio" name="vamos" value="nao" id="nao">
+                            <label for="nao">Não :(</label>
+                        </div><br>
+                    </div>
+                    <div class="afastamento02">
+                        <label for="comente">Dê suas opiniões sobre o site e comente sobre algo que goste:</label><br>
+                        <textarea name="comente" id="comente" cols="30%" rows="3%"></textarea>
+                    </div><br>
+                    <div class="enviar">
+                        <input type="submit" id="Enviar">
+                    </div>
+                </form>
 
             </div>
         </li>

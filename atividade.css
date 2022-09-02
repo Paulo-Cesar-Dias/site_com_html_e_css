@@ -66,7 +66,7 @@ zoom img{
 	transform: scale(1.1);
 }
 .body{
-
+    overflow-x: hidden;
     background-image: linear-gradient(to left, rgb(8, 100, 185), rgb(165, 165, 2) );
 }
 .cabecalho_prim{
@@ -78,9 +78,10 @@ zoom img{
 .menu{
     /*background-color: rgb(8, 100, 185);*/
     border-radius: 5px;
-    width: 30%;
+    width: 21%;
     height: 650px;
     margin-top: 4.5%;
+
 }
 .abas{
     background-color: rgb(8, 100, 185);
@@ -88,7 +89,7 @@ zoom img{
     text-align: center;
     margin-top: 5px;
     margin-bottom: 5px;
-    width: 70%;
+    width: 98%;
     height: 30px;
     color: aliceblue;
     margin-left: 2%;
@@ -152,15 +153,14 @@ html{
     text-align: justify;
     font-size: 22px;
     color: white;
-    width: 80%;
+    width: 97%;
 }
 .imagensmostrais{
     text-align: center;
-    width: 77.5%;
+    width: 100%;
     border-radius: 5px;
     border-style: solid;
     display: flex;
-    margin-left: 22%;
     color: rgba(255, 255, 255, 0.945);
     background-color: rgba(255, 255, 255, 0.158);
 }
@@ -170,10 +170,10 @@ html{
 }
 
 .margin{
-    padding-top: 10px;
+    padding-top: 3%;
 }
 .top{
-    padding-top: 70px;
+    padding-top: 15%;
     padding-right: 50px;
 }
 .perdon{
@@ -186,25 +186,35 @@ html{
 .nivel_cartas{
     border-radius: 5px;
     border-style: solid;
-    width: 49%;
     color: rgba(255, 255, 255, 0.945);
     background-color: rgba(255, 255, 255, 0.158);
+    margin-right: 4%;
+    margin-bottom: 2%; 
+    width: 60%;   
 }
 .cartas_alinhar{
     display: flex;
     text-align: center;
+
+
+
 }
 .cartas_alinhar_2{
     display: flex;
     text-align: center;
-    padding-left: 11%;
+    padding-left: 1%;
+
+
 }
 .margin_cartas{
     margin-top: -10px;
 }
 .alinhada_master{
-    display: flex;
     margin-top: 2%;
+    display: flex;
+    width: 100%;
+ 
+    
 }
 .espaçamentos{
     margin-top: 10%;
@@ -215,6 +225,7 @@ html{
     text-align: justify;
     font-size: 22px;
     color: white;
+  
 }
 .arena{
     border-radius: 5px;
@@ -270,5 +281,54 @@ html{
     background-color: rgba(255, 255, 255, 0.158);
     text-align: center;
     padding-top: 2%;
-    padding-left: 25%;
+    padding-left: 15%;
+}
+.formulario{
+    border-radius: 5px;
+    border-style: solid;
+    border-color: white;
+    color: white;
+    width: 80%;
+    background-color: rgba(255, 255, 255, 0.158);
+    margin-top: 2%;
+}
+.pontospessoais{
+    display: flex;
+    margin-top: 2%;
+    margin-left: 2%;
+}
+.pontosdosite{
+    display: flex;
+    margin-left: 2%;
+}
+.afastamento{
+    margin-right: 5%;
+}
+.afastamento01{
+    margin-right: 5%;
+}
+.afastamento02{
+    margin-top: 2%;
+    margin-left: 2%;
+}
+.enviar{
+    margin-left: 2%;
+    margin-bottom: 2%;
+}
+.div{
+    text-align:center;
+    margin-top: 0.6%;
+    margin-left: 5%;
+    width: 5%;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.158);
+    
+    height: 6.5%;    
+}
+.esq{
+    font-size:25px;
+}
+.menu_links{
+    color: white;
+    text-decoration: none; 
 }
